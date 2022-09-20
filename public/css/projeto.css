@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration:none ;
+  } 
+  .pin{
+    font-size: 23px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+  }
+  nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: rgb(41, 41, 41);
+    height: 9vh;
+  }
+  main{
+    background: url(../img/fundo.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  .navbar{
+    list-style: none;
+    display: flex;
+  }
+  .navbar li{
+    letter-spacing: 3px;
+    margin-left: 30px;
+  }
+  .menuzinho div{
+    width: 32px;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 8px;
+  }
+  .menuzinho{
+    cursor: pointer;
+    display: none;
+  }
+  
+  .a{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    
+  }
+  img{
+    margin-top: 70px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+  img:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2); 
+  }
+  .b {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  h1{
+    padding-top: 15px;
+    font-size: 23px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
